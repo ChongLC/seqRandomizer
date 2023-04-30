@@ -21,3 +21,13 @@ python seqRandomizer.py -o random_vprot.fasta -l 1000 -n 1000
 | -o       | output    | String  	|TRUE      | Path of the output file to be created                   |
 | -l       | seqlen    | Integer 	|TRUE      | The length of random protein sequences to be generated  |
 | -n       | seqnum    | Integer 	|TRUE      | The number of random protein sequences to be generated  |
+
+---
+
+### Important Note for Users
+* This seqRandomizer is specific to the [protocol describing the step-by-step utility of UNIQmin](https://www.biorxiv.org/content/10.1101/2022.08.09.503271v2.full).
+
+---
+
+### Found a bug?
+Or would like a feature added? Or maybe drop some feedback? Just open a new issue or send an email to us (lichuinchong@gmail.com).
