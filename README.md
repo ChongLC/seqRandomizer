@@ -11,7 +11,7 @@ A random protein sequence dataset can be useful for various sequence analysis, i
 In the usage case below, the `seq_randomizer` tool is applied to generate a random protein sequence dataset, named `randomproteinseq.fasta` consisting of 1,000 sequences of length 1,000 amino acids. The amino acid composition of the random sequences is based on all reported viral sequence retrieved from the NCBI Protein database (as of May 2021; `allVirus080521.fasta`). <br> 
 
 ```
-python randomizer.py -o randomproteinseq.fasta -l 1000 -n 1000
+python seq_randomizer.py -o randomproteinseq.fasta -l 1000 -n 1000
 ```
 
 #### Command-line Arguments
