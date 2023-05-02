@@ -1,12 +1,12 @@
-# seqRandomizer: A tool to generate a random viral protein sequence dataset
+# seqRandomizer: A tool to generate random viral protein sequence datasets
 [![Run in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1IwNPKaRKGgPzqiOBuEo8S0VbUpe3XqVh?usp=sharing) <br>
 
-A random protein sequence dataset can be useful for various sequence analysis, in order to evaluate and correct the analysis for the background noise. Herein, we offer a tool that can generate a dataset of random viral protein sequences. 
+A random protein sequence dataset can be useful for various sequence analysis, in particular to evaluate and correct the analysis for background noise. Herein, we offer a tool that can generate a dataset of random viral protein sequences. 
 
 ---
 
 ### Usage
-`python seqRandomizer.py [-h] [-[-o OUTPUT] [-l SEQLEN] [-n SEQNUM]`
+`python seqRandomizer.py [-h] [-o OUTPUT] [-l SEQLEN] [-n SEQNUM]`
 
 In the usage case below, the `seqRandomizer` tool is applied to generate a random viral protein sequence dataset in the folder `result`, named `random_vprot.fasta` consisting of 1,000 sequences of length 1,000 amino acids. The amino acid composition of the random sequences is based on all reported viral sequence retrieved from the NCBI Protein database (as of May 2021; `allVirus080521.fasta`). <br> 
 
